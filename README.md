@@ -37,6 +37,45 @@ target 'RNTest' do
 
 `cd ios && pod install --repo-update`
 
-`open RNTest.xcworkspace`
+```
+Detected React Native module pods for appcenter, appcenter-analytics, and appcenter-crashes
+Updating local specs repositories
+Analyzing dependencies
+Fetching podspec for `DoubleConversion` from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`
+Fetching podspec for `Folly` from `../node_modules/react-native/third-party-podspecs/Folly.podspec`
+Fetching podspec for `glog` from `../node_modules/react-native/third-party-podspecs/glog.podspec`
+Downloading dependencies
+Installing AppCenter (2.4.0)
+Installing AppCenterReactNativeShared (2.4.0)
+Installing DoubleConversion (1.1.6)
+Installing FBLazyVector (0.61.2)
+Installing FBReactNativeSpec (0.61.2)
+Installing Folly (2018.10.22.00)
+Installing RCTRequired (0.61.2)
+Installing RCTTypeSafety (0.61.2)
+Installing React (0.61.2)
+Installing React-Core (0.61.2)
+Installing React-CoreModules (0.61.2)
+Installing React-RCTActionSheet (0.61.2)
+Installing React-RCTAnimation (0.61.2)
+Installing React-RCTBlob (0.61.2)
+Installing React-RCTImage (0.61.2)
+Installing React-RCTLinking (0.61.2)
+Installing React-RCTNetwork (0.61.2)
+Installing React-RCTSettings (0.61.2)
+Installing React-RCTText (0.61.2)
+Installing React-RCTVibration (0.61.2)
+Installing React-cxxreact (0.61.2)
+Installing React-jsi (0.61.2)
+Installing React-jsiexecutor (0.61.2)
+Installing React-jsinspector (0.61.2)
+Installing ReactCommon (0.61.2)
+Installing Yoga (1.14.0)
+Installing appcenter (2.4.0)
+Installing appcenter-analytics (2.4.0)
+Installing appcenter-crashes (2.4.0)
+Installing boost-for-react-native (1.63.0)
+Installing glog (0.3.5)
+[!] The 'Pods-RNTest' target has transitive dependencies that include statically linked binaries: (/Users/juansebestia/Documents/gits/RNTest/ios/Pods/AppCenter/AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework, /Users/juansebestia/Documents/gits/RNTest/ios/Pods/AppCenter/AppCenter-SDK-Apple/iOS/AppCenter.framework, /Users/juansebestia/Documents/gits/RNTest/ios/Pods/AppCenter/AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework, and /Users/juansebestia/Documents/gits/RNTest/ios/Pods/AppCenterReactNativeShared/AppCenterReactNativeShared/AppCenterReactNativeShared.framework)
+```
 
-compile
